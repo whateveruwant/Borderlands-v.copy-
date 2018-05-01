@@ -1,0 +1,528 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>06.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>01.DirectMain</Filter>
+    </ClInclude>
+    <ClInclude Include="MyUtil.h">
+      <Filter>05.Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="cSingletonBase.h">
+      <Filter>05.Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="cBaseObject.h">
+      <Filter>03.Common\BaseObject</Filter>
+    </ClInclude>
+    <ClInclude Include="cLight.h">
+      <Filter>03.Common\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="cLight_Direction.h">
+      <Filter>03.Common\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="cLight_Point.h">
+      <Filter>03.Common\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="cBoundBox.h">
+      <Filter>03.Common\BaseObject\Bound</Filter>
+    </ClInclude>
+    <ClInclude Include="cBoundSphere.h">
+      <Filter>03.Common\BaseObject\Bound</Filter>
+    </ClInclude>
+    <ClInclude Include="cQuad.h">
+      <Filter>03.Common\Quad</Filter>
+    </ClInclude>
+    <ClInclude Include="cQuadParticleEmitter.h">
+      <Filter>03.Common\Quad</Filter>
+    </ClInclude>
+    <ClInclude Include="cQuadTree.h">
+      <Filter>03.Common\Quad</Filter>
+    </ClInclude>
+    <ClInclude Include="cPartcleEmitter.h">
+      <Filter>03.Common\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="cParticle.h">
+      <Filter>03.Common\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="cParticleQuad.h">
+      <Filter>03.Common\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="cScene.h">
+      <Filter>02.MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="cDXFontManager.h">
+      <Filter>04.Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="cGizmoManager.h">
+      <Filter>04.Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="cLogMgr.h">
+      <Filter>04.Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="cKeyMgr.h">
+      <Filter>04.Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="cPhysicManager.h">
+      <Filter>04.Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="cResourceMgr.h">
+      <Filter>04.Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="cResourceMgr_ShaderFX.h">
+      <Filter>04.Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="cResourceMgr_Texture.h">
+      <Filter>04.Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="cResourceMgr_XSkinnedMesh.h">
+      <Filter>04.Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="cResourceMgr_XStaticMesh.h">
+      <Filter>04.Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="cScene_Mgr.h">
+      <Filter>04.Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="cSpriteManager.h">
+      <Filter>04.Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="cTimeMgr.h">
+      <Filter>04.Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="cXMesh.h">
+      <Filter>03.Common\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="cXMesh_Skinned.h">
+      <Filter>03.Common\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="cXMesh_Static.h">
+      <Filter>03.Common\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="cMainGame.h">
+      <Filter>02.MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="cTransform.h">
+      <Filter>03.Common</Filter>
+    </ClInclude>
+    <ClInclude Include="BoneHierachy.h">
+      <Filter>03.Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cCamera.h">
+      <Filter>03.Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cFrustum.h">
+      <Filter>03.Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cImage.h">
+      <Filter>03.Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cSceneChangeEffect.h">
+      <Filter>03.Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cSceneChangeEffectUpDown.h">
+      <Filter>03.Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cSetBoundObject.h">
+      <Filter>03.Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cSkinnedAnimation.h">
+      <Filter>03.Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cTerrain.h">
+      <Filter>03.Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cTrailRender.h">
+      <Filter>03.Common</Filter>
+    </ClInclude>
+    <ClInclude Include="UserSetting.h">
+      <Filter>02.MainGame\Borderlands2</Filter>
+    </ClInclude>
+    <ClInclude Include="cScene_Menu.h">
+      <Filter>02.MainGame\Borderlands2\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="cScene_1stLoading.h">
+      <Filter>02.MainGame\Borderlands2\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="cScene_2ndLoading.h">
+      <Filter>02.MainGame\Borderlands2\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="cScene_Option.h">
+      <Filter>02.MainGame\Borderlands2\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterHand.h">
+      <Filter>02.MainGame\Borderlands2\Classes\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Gun.h">
+      <Filter>02.MainGame\Borderlands2\Classes\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="cEnemy.h">
+      <Filter>02.MainGame\Borderlands2\Classes\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="cSkag.h">
+      <Filter>02.MainGame\Borderlands2\Classes\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="cMap.h">
+      <Filter>02.MainGame\Borderlands2\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="cScene_inGame.h">
+      <Filter>02.MainGame\Borderlands2\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>02.MainGame\Borderlands2\Classes\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="cBandit.h">
+      <Filter>02.MainGame\Borderlands2\Classes\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="cBossManager.h">
+      <Filter>02.MainGame\Borderlands2\Classes\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="cObject.h">
+      <Filter>02.MainGame\Borderlands2\Classes\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="cBattleDroid.h">
+      <Filter>02.MainGame\Borderlands2\Classes\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="cBulletCollisionMGR.h">
+      <Filter>02.MainGame\Borderlands2\Classes\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="cParticleBullet.h">
+      <Filter>02.MainGame\Borderlands2\Classes\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="cSkelObject.h">
+      <Filter>02.MainGame\Borderlands2\Classes\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="cStaticObject.h">
+      <Filter>02.MainGame\Borderlands2\Classes\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="cVendingObject.h">
+      <Filter>02.MainGame\Borderlands2\Classes\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="cItem.h">
+      <Filter>02.MainGame\Borderlands2\Classes\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="cAstar.h">
+      <Filter>02.MainGame\Borderlands2\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="cEffectMGR.h">
+      <Filter>02.MainGame\Borderlands2\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="cInventory.h">
+      <Filter>02.MainGame\Borderlands2\Classes\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="cParticleMuzzleEmitter.h">
+      <Filter>03.Common\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="cParticleMuzzling.h">
+      <Filter>03.Common\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="cThresherArm.h">
+      <Filter>02.MainGame\Borderlands2\Classes\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="cThresherTail.h">
+      <Filter>02.MainGame\Borderlands2\Classes\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="cThresher.h">
+      <Filter>02.MainGame\Borderlands2\Classes\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="cSoundManager.h">
+      <Filter>04.Managers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>06.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameWorkDirectX.cpp">
+      <Filter>01.DirectMain</Filter>
+    </ClCompile>
+    <ClCompile Include="MyUtil.cpp">
+      <Filter>05.Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="cSingletonBase.cpp">
+      <Filter>05.Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="cBaseObject.cpp">
+      <Filter>03.Common\BaseObject</Filter>
+    </ClCompile>
+    <ClCompile Include="cLight.cpp">
+      <Filter>03.Common\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="cLight_Direction.cpp">
+      <Filter>03.Common\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="cLight_Point.cpp">
+      <Filter>03.Common\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="cBoundBox.cpp">
+      <Filter>03.Common\BaseObject\Bound</Filter>
+    </ClCompile>
+    <ClCompile Include="cBoundSphere.cpp">
+      <Filter>03.Common\BaseObject\Bound</Filter>
+    </ClCompile>
+    <ClCompile Include="cQuad.cpp">
+      <Filter>03.Common\Quad</Filter>
+    </ClCompile>
+    <ClCompile Include="cQuadParticleEmitter.cpp">
+      <Filter>03.Common\Quad</Filter>
+    </ClCompile>
+    <ClCompile Include="cQuadTree.cpp">
+      <Filter>03.Common\Quad</Filter>
+    </ClCompile>
+    <ClCompile Include="cPartcleEmitter.cpp">
+      <Filter>03.Common\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="cParticle.cpp">
+      <Filter>03.Common\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="cParticleQuad.cpp">
+      <Filter>03.Common\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="cScene.cpp">
+      <Filter>02.MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="cDXFontManager.cpp">
+      <Filter>04.Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="cGizmoManager.cpp">
+      <Filter>04.Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="cKeyMgr.cpp">
+      <Filter>04.Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="cLogMgr.cpp">
+      <Filter>04.Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="cPhysicManager.cpp">
+      <Filter>04.Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="cResourceMgr.cpp">
+      <Filter>04.Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="cResourceMgr_ShaderFX.cpp">
+      <Filter>04.Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="cResourceMgr_Texture.cpp">
+      <Filter>04.Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="cResourceMgr_XSkinnedMesh.cpp">
+      <Filter>04.Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="cResourceMgr_XStaticMesh.cpp">
+      <Filter>04.Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="cScene_Mgr.cpp">
+      <Filter>04.Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="cSpriteManager.cpp">
+      <Filter>04.Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="cTimeMgr.cpp">
+      <Filter>04.Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="cXMesh.cpp">
+      <Filter>03.Common\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="cXMesh_Skinned.cpp">
+      <Filter>03.Common\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="cXMesh_Static.cpp">
+      <Filter>03.Common\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="cMainGame.cpp">
+      <Filter>02.MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="BoneHierachy.cpp">
+      <Filter>03.Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cCamera.cpp">
+      <Filter>03.Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cFrustum.cpp">
+      <Filter>03.Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cImage.cpp">
+      <Filter>03.Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cSceneChangeEffect.cpp">
+      <Filter>03.Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cSceneChangeEffectUpDown.cpp">
+      <Filter>03.Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cSetBoundObject.cpp">
+      <Filter>03.Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cSkinnedAnimation.cpp">
+      <Filter>03.Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cTerrain.cpp">
+      <Filter>03.Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cTrailRender.cpp">
+      <Filter>03.Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cTransform.cpp">
+      <Filter>03.Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cScene_Menu.cpp">
+      <Filter>02.MainGame\Borderlands2\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="cScene_1stLoading.cpp">
+      <Filter>02.MainGame\Borderlands2\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="cScene_2ndLoading.cpp">
+      <Filter>02.MainGame\Borderlands2\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="cScene_Option.cpp">
+      <Filter>02.MainGame\Borderlands2\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterHand.cpp">
+      <Filter>02.MainGame\Borderlands2\Classes\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Gun.cpp">
+      <Filter>02.MainGame\Borderlands2\Classes\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="cEnemy.cpp">
+      <Filter>02.MainGame\Borderlands2\Classes\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="cSkag.cpp">
+      <Filter>02.MainGame\Borderlands2\Classes\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="cMap.cpp">
+      <Filter>02.MainGame\Borderlands2\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="cScene_inGame.cpp">
+      <Filter>02.MainGame\Borderlands2\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>02.MainGame\Borderlands2\Classes\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="cBandit.cpp">
+      <Filter>02.MainGame\Borderlands2\Classes\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="cBossManager.cpp">
+      <Filter>02.MainGame\Borderlands2\Classes\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="cObject.cpp">
+      <Filter>02.MainGame\Borderlands2\Classes\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="cBattleDroid.cpp">
+      <Filter>02.MainGame\Borderlands2\Classes\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="cBulletCollisionMGR.cpp">
+      <Filter>02.MainGame\Borderlands2\Classes\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="cParticleBullet.cpp">
+      <Filter>02.MainGame\Borderlands2\Classes\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="cSkelObject.cpp">
+      <Filter>02.MainGame\Borderlands2\Classes\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="cStaticObject.cpp">
+      <Filter>02.MainGame\Borderlands2\Classes\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="cVendingObject.cpp">
+      <Filter>02.MainGame\Borderlands2\Classes\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="cItem.cpp">
+      <Filter>02.MainGame\Borderlands2\Classes\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="cAstar.cpp">
+      <Filter>02.MainGame\Borderlands2\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="cEffectMGR.cpp">
+      <Filter>02.MainGame\Borderlands2\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="cInventory.cpp">
+      <Filter>02.MainGame\Borderlands2\Classes\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="cParticleMuzzleEmitter.cpp">
+      <Filter>03.Common\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="cParticleMuzzling.cpp">
+      <Filter>03.Common\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="cThresherArm.cpp">
+      <Filter>02.MainGame\Borderlands2\Classes\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="cThresherTail.cpp">
+      <Filter>02.MainGame\Borderlands2\Classes\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="cThresher.cpp">
+      <Filter>02.MainGame\Borderlands2\Classes\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="cSoundManager.cpp">
+      <Filter>04.Managers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="01.DirectMain">
+      <UniqueIdentifier>{e38885fb-dc6e-45b9-89ea-e9ee2da26e27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.MainGame">
+      <UniqueIdentifier>{4ba47152-525e-4062-b1f2-319ecd6862fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Common">
+      <UniqueIdentifier>{472435d2-35c4-44fe-87ec-7f347e7c903d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Managers">
+      <UniqueIdentifier>{fb25917f-ab2e-47e7-a4e6-4d1464c7819d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Utils">
+      <UniqueIdentifier>{67f153db-f8db-4ab5-a6c8-266df39c7360}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Default">
+      <UniqueIdentifier>{cee9da44-4938-46c3-bdef-e6a51b22bc32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Common\BaseObject">
+      <UniqueIdentifier>{94093182-72ba-4472-877f-03df65a796c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Common\Light">
+      <UniqueIdentifier>{89826fd6-4301-4f92-b8c3-1ad315081589}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Common\Mesh">
+      <UniqueIdentifier>{0fbe48eb-f726-43c1-a1ae-3e128fb71c61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Common\Quad">
+      <UniqueIdentifier>{229a030b-67bd-4401-ad25-8095162aa11a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Common\Particle">
+      <UniqueIdentifier>{c57f54f1-d24b-4ead-900b-cccce99f060d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Common\BaseObject\Bound">
+      <UniqueIdentifier>{a1f21932-a71d-4c39-880c-63b66038a7d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.MainGame\Borderlands2">
+      <UniqueIdentifier>{18cfa077-e1ce-41e6-b7d4-b5a7f80a3358}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.MainGame\Borderlands2\Scenes">
+      <UniqueIdentifier>{0aa98e52-20a4-4747-8362-7b25dc604d44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.MainGame\Borderlands2\Classes">
+      <UniqueIdentifier>{ca8a83f6-5d6f-4e61-9613-53385477db75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.MainGame\Borderlands2\Classes\Character">
+      <UniqueIdentifier>{8d25415b-9b7e-465b-be4c-953b79faa13e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.MainGame\Borderlands2\Classes\Enemy">
+      <UniqueIdentifier>{2dbe844e-002d-4e47-9712-64c471571047}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.MainGame\Borderlands2\Classes\Boss">
+      <UniqueIdentifier>{eed99d72-146a-4e6a-9650-3ae81ce7c6d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.MainGame\Borderlands2\Classes\Object">
+      <UniqueIdentifier>{2ddc928f-5f74-443b-8244-9f28ce100f32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.MainGame\Borderlands2\Classes\Item">
+      <UniqueIdentifier>{9e510cda-e4c4-4313-bbe3-1f7001efa5e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.MainGame\Borderlands2\Classes\Bullet">
+      <UniqueIdentifier>{9d573c59-47b0-417a-bfad-86f20ce6c43f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
